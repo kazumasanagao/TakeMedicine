@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  お薬飲んだ？
+
+  Created by Kazumasa Nagao on 5/20/15.
+  Copyright (c) 2015 Kazumasa Nagao. All rights reserved.
+*/
+
+
+"Alert"="您吃药了吗？";
+"Close"="关闭";
+"Script"="　这个软件的使用方法很简单。您只需选择您需要提示的时间。\n　选择确定后，您将每天都会在这个时间收到一条短信提示，短信内容为：“您吃药了吗？”。\n　如果您不需要提醒时，请按下绿色的按钮。按钮呈白色时，您将不会接收到短信提示。\n\n<免责条款>\n　因使用本服务而对用户所造成的所有损害，我们将不负任何责任。请谅解。";
+"AppTitle"="吃药了吗？";
+"Setting"="现在的设定";

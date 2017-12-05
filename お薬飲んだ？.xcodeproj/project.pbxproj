@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5050E771B0AB27C00D22C4D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5050E761B0AB27C00D22C4D /* iAd.framework */; };
+		D51989B01B128B6500BCBE91 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D51989AF1B128B6500BCBE91 /* Launch Screen.xib */; };
+		D51989B21B128E7600BCBE91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51989B11B128E7600BCBE91 /* Images.xcassets */; };
+		D51989BF1B12FCD300BCBE91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5BCEB4B1B11B503002E0B99 /* InfoPlist.strings */; };
+		D51B0B271B004B8B0094A6D7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B0B261B004B8B0094A6D7 /* File.swift */; };
+		D51B0B2B1B004DC70094A6D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B0B2A1B004DC70094A6D7 /* MainViewController.swift */; };
+		D56301AD1B003FBE00938BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56301AC1B003FBE00938BDA /* AppDelegate.swift */; };
+		D56301AF1B003FBE00938BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56301AE1B003FBE00938BDA /* ViewController.swift */; };
+		D56301B21B003FBE00938BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56301B01B003FBE00938BDA /* Main.storyboard */; };
+		D56301C31B003FBF00938BDA /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56301C21B003FBF00938BDA /* _______Tests.swift */; };
+		D56A51451B0461C1004C3C1D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A51441B0461C1004C3C1D /* InterfaceController.swift */; };
+		D56A51471B0461C1004C3C1D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A51461B0461C1004C3C1D /* NotificationController.swift */; };
+		D56A51491B0461C1004C3C1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A51481B0461C1004C3C1D /* Images.xcassets */; };
+		D56A514D1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D56A514C1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App.app */; };
+		D56A51571B0461C1004C3C1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A51561B0461C1004C3C1D /* Images.xcassets */; };
+		D56A515A1B0461C1004C3C1D /* お薬飲んだ？ WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D56A513F1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D56A51631B0469EB004C3C1D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56A51531B0461C1004C3C1D /* Interface.storyboard */; };
+		D57DF6111B0C217000A584ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57DF6131B0C217000A584ED /* Localizable.strings */; };
+		D5BCEB391B118745002E0B99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57DF6131B0C217000A584ED /* Localizable.strings */; };
+		D5BCEB491B11B503002E0B99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5BCEB4B1B11B503002E0B99 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D56301BD1B003FBF00938BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D563019F1B003FBE00938BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56301A61B003FBE00938BDA;
+			remoteInfo = "お薬飲んだ？";
+		};
+		D56A514E1B0461C1004C3C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D563019F1B003FBE00938BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56A514B1B0461C1004C3C1D;
+			remoteInfo = "お薬飲んだ？ WatchKit App";
+		};
+		D56A51581B0461C1004C3C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D563019F1B003FBE00938BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56A513E1B0461C0004C3C1D;
+			remoteInfo = "お薬飲んだ？ WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D56A51611B0461C1004C3C1D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D56A515A1B0461C1004C3C1D /* お薬飲んだ？ WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5050E761B0AB27C00D22C4D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D51989AF1B128B6500BCBE91 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		D51989B11B128E7600BCBE91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D51B0B261B004B8B0094A6D7 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D51B0B2A1B004DC70094A6D7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		D56301A71B003FBE00938BDA /* お薬飲んだ？.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "お薬飲んだ？.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56301AC1B003FBE00938BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D56301AE1B003FBE00938BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D56301B11B003FBE00938BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D56301BC1B003FBF00938BDA /* お薬飲んだ？Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "お薬飲んだ？Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56301C11B003FBF00938BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56301C21B003FBF00938BDA /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		D56A513F1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "お薬飲んだ？ WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56A51431B0461C1004C3C1D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D56A51441B0461C1004C3C1D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D56A51461B0461C1004C3C1D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D56A51481B0461C1004C3C1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D56A514C1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "お薬飲んだ？ WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56A51541B0461C1004C3C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D56A51561B0461C1004C3C1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D57DF6001B0C1F2E00A584ED /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Interface.strings; sourceTree = "<group>"; };
+		D57DF6031B0C1F3B00A584ED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Interface.strings"; sourceTree = "<group>"; };
+		D57DF6081B0C202900A584ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		D57DF60A1B0C202F00A584ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		D57DF60B1B0C203000A584ED /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/Info.plist; sourceTree = "<group>"; };
+		D57DF60C1B0C203100A584ED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
+		D57DF6121B0C217000A584ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D57DF6141B0C217100A584ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D57DF6151B0C217200A584ED /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D57DF6161B0C217400A584ED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D5BCEB381B1173D3002E0B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Interface.strings; sourceTree = "<group>"; };
+		D5BCEB3C1B118B7B002E0B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		D5BCEB4A1B11B503002E0B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5BCEB4C1B11B505002E0B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5BCEB4D1B11B506002E0B99 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5BCEB4E1B11B507002E0B99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D5CD41861B11BA1D00872808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		D5E265551B06DCEE00EF5E2B /* お薬飲んだ？ WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "お薬飲んだ？ WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D5E265561B06DDFD00EF5E2B /* お薬飲んだ？.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "お薬飲んだ？.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D56301A41B003FBE00938BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5050E771B0AB27C00D22C4D /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56301B91B003FBF00938BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A513C1B0461C0004C3C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D563019E1B003FBE00938BDA = {
+			isa = PBXGroup;
+			children = (
+				D5050E761B0AB27C00D22C4D /* iAd.framework */,
+				D56301A91B003FBE00938BDA /* お薬飲んだ？ */,
+				D56301BF1B003FBF00938BDA /* お薬飲んだ？Tests */,
+				D56A51401B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension */,
+				D56A51501B0461C1004C3C1D /* お薬飲んだ？ WatchKit App */,
+				D56301A81B003FBE00938BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D56301A81B003FBE00938BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56301A71B003FBE00938BDA /* お薬飲んだ？.app */,
+				D56301BC1B003FBF00938BDA /* お薬飲んだ？Tests.xctest */,
+				D56A513F1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension.appex */,
+				D56A514C1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D56301A91B003FBE00938BDA /* お薬飲んだ？ */ = {
+			isa = PBXGroup;
+			children = (
+				D5E265561B06DDFD00EF5E2B /* お薬飲んだ？.entitlements */,
+				D51989B11B128E7600BCBE91 /* Images.xcassets */,
+				D56301AC1B003FBE00938BDA /* AppDelegate.swift */,
+				D56301AE1B003FBE00938BDA /* ViewController.swift */,
+				D51989AF1B128B6500BCBE91 /* Launch Screen.xib */,
+				D51B0B2A1B004DC70094A6D7 /* MainViewController.swift */,
+				D56301B01B003FBE00938BDA /* Main.storyboard */,
+				D51B0B261B004B8B0094A6D7 /* File.swift */,
+				D56301AA1B003FBE00938BDA /* Supporting Files */,
+			);
+			path = "お薬飲んだ？";
+			sourceTree = "<group>";
+		};
+		D56301AA1B003FBE00938BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57DF6091B0C202900A584ED /* Info.plist */,
+				D57DF6131B0C217000A584ED /* Localizable.strings */,
+				D5BCEB4B1B11B503002E0B99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D56301BF1B003FBF00938BDA /* お薬飲んだ？Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D56301C21B003FBF00938BDA /* _______Tests.swift */,
+				D56301C01B003FBF00938BDA /* Supporting Files */,
+			);
+			path = "お薬飲んだ？Tests";
+			sourceTree = "<group>";
+		};
+		D56301C01B003FBF00938BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D56301C11B003FBF00938BDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D56A51401B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5E265551B06DCEE00EF5E2B /* お薬飲んだ？ WatchKit Extension.entitlements */,
+				D56A51441B0461C1004C3C1D /* InterfaceController.swift */,
+				D56A51461B0461C1004C3C1D /* NotificationController.swift */,
+				D56A51481B0461C1004C3C1D /* Images.xcassets */,
+				D56A51411B0461C0004C3C1D /* Supporting Files */,
+			);
+			path = "お薬飲んだ？ WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D56A51411B0461C0004C3C1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5BCEB3D1B118B7B002E0B99 /* Info.plist */,
+				D56A51431B0461C1004C3C1D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D56A51501B0461C1004C3C1D /* お薬飲んだ？ WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D56A51531B0461C1004C3C1D /* Interface.storyboard */,
+				D56A51561B0461C1004C3C1D /* Images.xcassets */,
+				D56A51511B0461C1004C3C1D /* Supporting Files */,
+			);
+			path = "お薬飲んだ？ WatchKit App";
+			sourceTree = "<group>";
+		};
+		D56A51511B0461C1004C3C1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CD41871B11BA1D00872808 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D56301A61B003FBE00938BDA /* お薬飲んだ？ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56301C61B003FBF00938BDA /* Build configuration list for PBXNativeTarget "お薬飲んだ？" */;
+			buildPhases = (
+				D56301A31B003FBE00938BDA /* Sources */,
+				D56301A41B003FBE00938BDA /* Frameworks */,
+				D56301A51B003FBE00938BDA /* Resources */,
+				D56A51611B0461C1004C3C1D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56A51591B0461C1004C3C1D /* PBXTargetDependency */,
+			);
+			name = "お薬飲んだ？";
+			productName = "お薬飲んだ？";
+			productReference = D56301A71B003FBE00938BDA /* お薬飲んだ？.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D56301BB1B003FBF00938BDA /* お薬飲んだ？Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56301C91B003FBF00938BDA /* Build configuration list for PBXNativeTarget "お薬飲んだ？Tests" */;
+			buildPhases = (
+				D56301B81B003FBF00938BDA /* Sources */,
+				D56301B91B003FBF00938BDA /* Frameworks */,
+				D56301BA1B003FBF00938BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56301BE1B003FBF00938BDA /* PBXTargetDependency */,
+			);
+			name = "お薬飲んだ？Tests";
+			productName = "お薬飲んだ？Tests";
+			productReference = D56301BC1B003FBF00938BDA /* お薬飲んだ？Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D56A513E1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56A515E1B0461C1004C3C1D /* Build configuration list for PBXNativeTarget "お薬飲んだ？ WatchKit Extension" */;
+			buildPhases = (
+				D56A513B1B0461C0004C3C1D /* Sources */,
+				D56A513C1B0461C0004C3C1D /* Frameworks */,
+				D56A513D1B0461C0004C3C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56A514F1B0461C1004C3C1D /* PBXTargetDependency */,
+			);
+			name = "お薬飲んだ？ WatchKit Extension";
+			productName = "お薬飲んだ？ WatchKit Extension";
+			productReference = D56A513F1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D56A514B1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56A515B1B0461C1004C3C1D /* Build configuration list for PBXNativeTarget "お薬飲んだ？ WatchKit App" */;
+			buildPhases = (
+				D56A514A1B0461C1004C3C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "お薬飲んだ？ WatchKit App";
+			productName = "お薬飲んだ？ WatchKit App";
+			productReference = D56A514C1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D563019F1B003FBE00938BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kazumasa Nagao";
+				TargetAttributes = {
+					D56301A61B003FBE00938BDA = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M5GB99H2YP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D56301BB1B003FBF00938BDA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D56301A61B003FBE00938BDA;
+					};
+					D56A513E1B0461C0004C3C1D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M5GB99H2YP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D56A514B1B0461C1004C3C1D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M5GB99H2YP;
+					};
+				};
+			};
+			buildConfigurationList = D56301A21B003FBE00938BDA /* Build configuration list for PBXProject "お薬飲んだ？" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				"zh-Hans",
+			);
+			mainGroup = D563019E1B003FBE00938BDA;
+			productRefGroup = D56301A81B003FBE00938BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D56301A61B003FBE00938BDA /* お薬飲んだ？ */,
+				D56301BB1B003FBF00938BDA /* お薬飲んだ？Tests */,
+				D56A513E1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension */,
+				D56A514B1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D56301A51B003FBE00938BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57DF6111B0C217000A584ED /* Localizable.strings in Resources */,
+				D5BCEB491B11B503002E0B99 /* InfoPlist.strings in Resources */,
+				D56301B21B003FBE00938BDA /* Main.storyboard in Resources */,
+				D51989B21B128E7600BCBE91 /* Images.xcassets in Resources */,
+				D51989B01B128B6500BCBE91 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56301BA1B003FBF00938BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A513D1B0461C0004C3C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A51491B0461C1004C3C1D /* Images.xcassets in Resources */,
+				D5BCEB391B118745002E0B99 /* Localizable.strings in Resources */,
+				D56A514D1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A514A1B0461C1004C3C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A51631B0469EB004C3C1D /* Interface.storyboard in Resources */,
+				D51989BF1B12FCD300BCBE91 /* InfoPlist.strings in Resources */,
+				D56A51571B0461C1004C3C1D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D56301A31B003FBE00938BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56301AF1B003FBE00938BDA /* ViewController.swift in Sources */,
+				D51B0B271B004B8B0094A6D7 /* File.swift in Sources */,
+				D56301AD1B003FBE00938BDA /* AppDelegate.swift in Sources */,
+				D51B0B2B1B004DC70094A6D7 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56301B81B003FBF00938BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56301C31B003FBF00938BDA /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A513B1B0461C0004C3C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A51471B0461C1004C3C1D /* NotificationController.swift in Sources */,
+				D56A51451B0461C1004C3C1D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D56301BE1B003FBF00938BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56301A61B003FBE00938BDA /* お薬飲んだ？ */;
+			targetProxy = D56301BD1B003FBF00938BDA /* PBXContainerItemProxy */;
+		};
+		D56A514F1B0461C1004C3C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56A514B1B0461C1004C3C1D /* お薬飲んだ？ WatchKit App */;
+			targetProxy = D56A514E1B0461C1004C3C1D /* PBXContainerItemProxy */;
+		};
+		D56A51591B0461C1004C3C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56A513E1B0461C0004C3C1D /* お薬飲んだ？ WatchKit Extension */;
+			targetProxy = D56A51581B0461C1004C3C1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D56301B01B003FBE00938BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D56301B11B003FBE00938BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D56A51531B0461C1004C3C1D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D56A51541B0461C1004C3C1D /* Base */,
+				D57DF6001B0C1F2E00A584ED /* ja */,
+				D57DF6031B0C1F3B00A584ED /* zh-Hans */,
+				D5BCEB381B1173D3002E0B99 /* en */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		D57DF6091B0C202900A584ED /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57DF6081B0C202900A584ED /* en */,
+				D57DF60A1B0C202F00A584ED /* Base */,
+				D57DF60B1B0C203000A584ED /* ja */,
+				D57DF60C1B0C203100A584ED /* zh-Hans */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		D57DF6131B0C217000A584ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57DF6121B0C217000A584ED /* en */,
+				D57DF6141B0C217100A584ED /* Base */,
+				D57DF6151B0C217200A584ED /* ja */,
+				D57DF6161B0C217400A584ED /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D5BCEB3D1B118B7B002E0B99 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BCEB3C1B118B7B002E0B99 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		D5BCEB4B1B11B503002E0B99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BCEB4A1B11B503002E0B99 /* Base */,
+				D5BCEB4C1B11B505002E0B99 /* en */,
+				D5BCEB4D1B11B506002E0B99 /* ja */,
+				D5BCEB4E1B11B507002E0B99 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5CD41871B11BA1D00872808 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CD41861B11BA1D00872808 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D56301C41B003FBF00938BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D56301C51B003FBF00938BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D56301C71B003FBF00938BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "お薬飲んだ？/お薬飲んだ？.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "お薬飲んだ？/Base.lproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D56301C81B003FBF00938BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "お薬飲んだ？/お薬飲んだ？.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "お薬飲んだ？/Base.lproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D56301CA1B003FBF00938BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "お薬飲んだ？Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/お薬飲んだ？.app/お薬飲んだ？";
+			};
+			name = Debug;
+		};
+		D56301CB1B003FBF00938BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "お薬飲んだ？Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/お薬飲んだ？.app/お薬飲んだ？";
+			};
+			name = Release;
+		};
+		D56A515C1B0461C1004C3C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = "________WatchKit_Extension";
+				INFOPLIST_FILE = "お薬飲んだ？ WatchKit App/Base.lproj/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D56A515D1B0461C1004C3C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = "________WatchKit_Extension";
+				INFOPLIST_FILE = "お薬飲んだ？ WatchKit App/Base.lproj/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D56A515F1B0461C1004C3C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "お薬飲んだ？ WatchKit Extension/お薬飲んだ？ WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "お薬飲んだ？ WatchKit Extension/Base.lproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D56A51601B0461C1004C3C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "お薬飲んだ？ WatchKit Extension/お薬飲んだ？ WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "お薬飲んだ？ WatchKit Extension/Base.lproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D56301A21B003FBE00938BDA /* Build configuration list for PBXProject "お薬飲んだ？" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56301C41B003FBF00938BDA /* Debug */,
+				D56301C51B003FBF00938BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56301C61B003FBF00938BDA /* Build configuration list for PBXNativeTarget "お薬飲んだ？" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56301C71B003FBF00938BDA /* Debug */,
+				D56301C81B003FBF00938BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56301C91B003FBF00938BDA /* Build configuration list for PBXNativeTarget "お薬飲んだ？Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56301CA1B003FBF00938BDA /* Debug */,
+				D56301CB1B003FBF00938BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56A515B1B0461C1004C3C1D /* Build configuration list for PBXNativeTarget "お薬飲んだ？ WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56A515C1B0461C1004C3C1D /* Debug */,
+				D56A515D1B0461C1004C3C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56A515E1B0461C1004C3C1D /* Build configuration list for PBXNativeTarget "お薬飲んだ？ WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56A515F1B0461C1004C3C1D /* Debug */,
+				D56A51601B0461C1004C3C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D563019F1B003FBE00938BDA /* Project object */;
+}

@@ -1,0 +1,9 @@
+/* 
+  infoPlist.strings
+  お薬飲んだ？
+
+  Created by Kazumasa Nagao on 5/25/15.
+  Copyright (c) 2015 Kazumasa Nagao. All rights reserved.
+*/
+
+CFBundleDisplayName = "お薬飲んだ？";
